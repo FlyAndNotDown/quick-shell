@@ -1,0 +1,11 @@
+{
+  "name": "quick-shell",
+  "version": "1.0.0",
+  "description": "A simple way to create a command-line application with shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kindem",
+  "license": "MIT"
+}
