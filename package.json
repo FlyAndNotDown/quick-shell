@@ -1,9 +1,13 @@
 {
   "name": "quick-shell",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple way to create a command-line application with shell",
   "main": "index.js",
   "scripts": {},
   "author": "kindem",
-  "license": "MIT"
+  "license": "MIT",
+  "gitRepository": "https://github.com/FlyAndNotDown/quick-shell.git",
+  "keywords": [
+    "cmd", "shell", "quick-shell", "quick shell", "quick", "cli"
+  ]
 }

@@ -1,5 +1,5 @@
-# <center>quick-shell.js</center>
-# <center>![npm badge](https://img.shields.io/npm/v/npm.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com) ![license badge](https://img.shields.io/packagist/l/doctrine/orm.svg)</center>
+# quick-shell.js
+# ![npm badge](https://img.shields.io/npm/v/npm.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com) ![license badge](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 # what is quick-shell.js ?
 quick-shell is a `nodejs` lib, which you can use it to create a shell application quickly
