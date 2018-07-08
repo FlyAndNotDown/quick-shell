@@ -87,7 +87,26 @@ describe('shell.js', () => {
 
             })
 
-        })
+        });
+
+        // test of prompt()
+        describe('prompt()', () => {
+
+            // target
+            it('should set the prompt successful', () => {
+
+                // create a new instance of Shell
+                let shell = new Shell();
+
+                // set the prompt
+                shell.prompt('▲');
+
+                // check if the prompt is ▲
+                expect(shell.__prompt).to.equal('▲');
+
+            });
+
+        });
 
     });
 
