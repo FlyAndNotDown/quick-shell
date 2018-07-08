@@ -98,11 +98,52 @@ describe('shell.js', () => {
                 // create a new instance of Shell
                 let shell = new Shell();
 
-                // set the prompt
+                // set the prompt, by the way check if it return 'this'
                 shell.prompt('▲');
 
                 // check if the prompt is ▲
                 expect(shell.__prompt).to.equal('▲');
+
+            });
+
+            // target
+            it('should return the class itself', () => {
+
+                // create a new instance of Shell
+                let shell = new Shell();
+
+                // set the prompt, by the way check if it return 'this'
+                expect(shell.prompt('▲')).to.be.an.instanceOf(Shell);
+
+            });
+
+        });
+
+        // test of welcome()
+        describe('welcome()', () => {
+
+            // target
+            it('should set the welcome text successful', () => {
+
+                // create a new instance of Shell
+                let shell = new Shell();
+
+                // set the welcome text
+                shell.welcome('welcome to the quick-shell');
+
+                // check if it was set successful
+                expect(shell.__welcome).to.equal('welcome to the quick-shell');
+
+            });
+
+            // target
+            it('should return the class itself', () => {
+
+                 // create a new instance of Shell
+                let shell = new Shell();
+
+                // set the welcome text, by the way, test if it will return the class itself
+                expect(shell.welcome('welcome to the quick-shell')).to.be.an.instanceOf(Shell);
 
             });
 
